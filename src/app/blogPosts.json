@@ -1,0 +1,9 @@
+
+[{
+    "name": "prviClanak",
+    "description": "First blog post.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+},
+  {
+    "name":  "drugiClanak",
+    "description": "Second blog post.Lorem ipsum dolor sit amet consectetur adipisicing elit."
+}]
