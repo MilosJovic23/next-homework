@@ -11,7 +11,7 @@ export default function BlogPosts({ params }) {
 
                     if( post.name.toLowerCase() === params.slug ){
                        return <p>{ post.description }</p>
-                }
+                    }
 
             })}
         </>
