@@ -1,6 +1,6 @@
 
 
-import blogData from "../../blogPosts.json"
+import blogData from "@/BlogPostsJSON/blogPosts.json"
 
 
 export default function BlogPosts({ params }) {
@@ -11,11 +11,7 @@ export default function BlogPosts({ params }) {
 
                     if( post.name.toLowerCase() === params.slug ){
                        return <p>{ post.description }</p>
-                } else{
-                        return(<p>Specific blog post doesn't exist</p>)
-                    }
-
-
+                }
 
             })}
         </>
