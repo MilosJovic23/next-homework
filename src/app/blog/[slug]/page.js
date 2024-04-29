@@ -19,9 +19,10 @@ export default async function BlogPosts({ params }) {
                 <p>{data.price}</p>
                 <p>{data.category}</p>
                 { data.images.map((img)=>{
-                    return <img style={{width: 200, height:200}} src={img} alt="ds"/>
+                    return <Image src={img} alt="ds"
+                    width="200" height="200"/>
                 })}
-                <img src={data.images[2]} alt="asd"/>
+
             </div>
 
 
