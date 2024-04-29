@@ -22,9 +22,7 @@ export default async function BlogPosts({ params }) {
                     return <Image ket={img} src={img} alt="ds"
                     width="200" height="200"/>
                 })}
-
             </div>
-
 
         </>
 

@@ -8,8 +8,11 @@ export default async function Home() {
   console.log(data)
   return (
       <>
+
           <div className="productWrapper">
+
               {data.products.map((product) => {
+
                   return <div key={product} className="product" >
                       <Image src={product.thumbnail} alt={product.title}
                              width="150" height="80"/>
@@ -18,7 +21,9 @@ export default async function Home() {
                       <p>{product.price}</p>
 
                   </div>
+
               })}
+
           </div>
       </>
 
